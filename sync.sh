@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
+git commit -am 'Update' | exit 0
 git pull
-git add .
-git commit -m 'Update'
+git commit -am 'Update' | exit 0
 git push
