@@ -5,3 +5,4 @@ tags: []
 ---
 
 Clean office
+Clean kitchen
