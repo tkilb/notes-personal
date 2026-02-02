@@ -6,4 +6,4 @@ tags: []
 
 - steam deck
 - laptop, keyboard with adapter
--
+- Tech Pack organized
