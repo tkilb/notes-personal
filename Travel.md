@@ -5,5 +5,5 @@ tags: []
 ---
 
 - steam deck
-- laptop, kyboard with adapter
+- laptop, keyboard with adapter
 -
