@@ -18,6 +18,7 @@ E2: Cooking
 E3: CEs
 
 Wed
+D: Work
 
 Thur
 
