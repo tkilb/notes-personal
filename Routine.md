@@ -1,12 +1,21 @@
+---
+id: Routine
+aliases: []
+tags: []
+---
+
 Mon
-D
-E1
+D: Work
+E1: Gym
+E2: Coding
+E3: Reading
 
 Tue
-Day
-E1 game
-E2
-E3
+D: Work
+D2: Running
+E1: Gaming
+E2: Cooking
+E3: CEs
 
 Wed
 
