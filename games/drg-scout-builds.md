@@ -43,6 +43,15 @@ tags: []
 | MK1000   | Super Cooled Chamber | 11123 |
 | Crossbow | Bodkin Points        | 11111 |
 
+## [Build E](https://www.youtube.com/watch?v=RoKHdjtsflk&t=9m34s)
+
+| Weapon | Overclock         | Mods  |
+| ------ | ----------------- | ----- |
+| Drak   | TEF               | 11123 |
+| Zokovs | Embeded Detonator | 13231 |
+
+---
+
 ## [Build F](https://www.youtube.com/watch?v=RoKHdjtsflk&t=80s)
 
 | Weapon | Overclock         | Mods  |
