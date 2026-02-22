@@ -6,21 +6,20 @@ tags: []
 
 # Scout Builds
 
-## [Build A](https://www.youtube.com/watch?v=RoKHdjtsflk&t=4m17s)
+## [Build A](https://www.youtube.com/watch?v=DNCDkNVnFS4)
 
-| Weapon    | Overclock    | Mods  |
-| --------- | ------------ | ----- |
-| GK2       | Compact Ammo | 32212 |
-| Boomstick | Jumbo Shells | 12313 |
+| Weapon    | Overclock           | Mods  |
+| --------- | ------------------- | ----- |
+| GK2       | AI Stability Engine | 21212 |
+| Crossbow  | Bodkin Points       | 12122 |
+| Grenade   | Stun Sweeper        |       |
+| Grapple   |                     | 2111  |
+| Flare Gun |                     | 223   |
+| Armor     |                     | 3213  |
 
-## [Build B](https://www.youtube.com/watch?v=RoKHdjtsflk&t=22m24s)
+Perks:Thorns, Resupplier, Born Ready, Medic, Iron Will
 
-| Weapon | Overclock           | Mods  |
-| ------ | ------------------- | ----- |
-| GK2    | AI Stability Engine | 21212 |
-| Zokovs | Gas Recycling       | 13211 |
-
-## [Build C](https://www.youtube.com/watch?v=RoKHdjtsflk&t=20m16s)
+## [Build B](https://www.youtube.com/watch?v=RoKHdjtsflk&t=20m16s)
 
 | Weapon | Overclock          | Mods  |
 | ------ | ------------------ | ----- |
@@ -29,7 +28,7 @@ tags: []
 
 (orig Boomstick , Special Powder , 12213)
 
-## [Build D](https://www.youtube.com/watch?v=RoKHdjtsflk&t=12m26s)
+## [Build C](https://www.youtube.com/watch?v=RoKHdjtsflk&t=12m26s)
 
 | Weapon    | Overclock     | Mods  |
 | --------- | ------------- | ----- |
