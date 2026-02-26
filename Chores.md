@@ -4,5 +4,6 @@ aliases: []
 tags: []
 ---
 
-Clean office
-Clean kitchen
+- [ ] Change front door batteries
+- [ ] Clean office
+- [ ] Clean kitchen
