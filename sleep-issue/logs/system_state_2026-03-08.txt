@@ -1,0 +1,157 @@
+Please provide the output of the following commands in this file:
+
+1. free -h
+
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi        13Gi       491Mi       890Mi        16Gi        17Gi
+Swap:           15Gi       8.0Ki        15Gi
+
+2. swapon --show
+
+NAME      TYPE SIZE USED PRIO
+/swapfile file  16G   8K   -2
+
+3. cat /proc/acpi/wakeup
+
+Device	S-state	  Status   Sysfs node
+PEG1	  S4	*enabled   pci:0000:00:01.0
+PEGP	  S4	*disabled  pci:0000:01:00.0
+PEG2	  S4	*disabled
+PEGP	  S4	*disabled
+PEG0	  S4	*disabled
+PEGP	  S4	*disabled
+RP09	  S4	*disabled
+PXSX	  S4	*disabled
+RP10	  S4	*disabled
+PXSX	  S4	*disabled
+RP11	  S4	*disabled
+PXSX	  S4	*disabled
+RP12	  S4	*disabled
+PXSX	  S4	*disabled
+RP13	  S4	*disabled
+PXSX	  S4	*disabled
+RP14	  S4	*disabled
+PXSX	  S4	*disabled
+RP15	  S4	*disabled
+PXSX	  S4	*disabled
+RP16	  S4	*disabled
+PXSX	  S4	*disabled
+RP01	  S4	*disabled  pci:0000:00:1c.0
+PXSX	  S4	*disabled
+RP02	  S4	*enabled   pci:0000:00:1c.1
+PXSX	  S4	*disabled  pci:0000:05:00.0
+RP03	  S4	*enabled   pci:0000:00:1c.2
+PXSX	  S4	*enabled   pci:0000:06:00.0
+RP04	  S4	*disabled
+PXSX	  S4	*disabled
+RP05	  S4	*disabled
+PXSX	  S4	*disabled
+RP06	  S4	*disabled
+PXSX	  S4	*disabled
+RP07	  S4	*disabled
+PXSX	  S4	*disabled
+RP08	  S4	*disabled
+PXSX	  S4	*disabled
+RP17	  S4	*disabled  pci:0000:00:1b.0
+PXSX	  S4	*disabled
+RP18	  S4	*disabled
+PXSX	  S4	*disabled
+RP19	  S4	*disabled
+PXSX	  S4	*disabled
+RP20	  S4	*disabled
+PXSX	  S4	*disabled
+RP21	  S4	*enabled   pci:0000:00:1b.4
+PXSX	  S4	*disabled  pci:0000:03:00.0
+RP22	  S4	*disabled
+PXSX	  S4	*disabled
+RP23	  S4	*disabled
+PXSX	  S4	*disabled
+RP24	  S4	*disabled
+PXSX	  S4	*disabled
+RP25	  S4	*disabled
+PXSX	  S4	*disabled
+RP26	  S4	*disabled
+PXSX	  S4	*disabled
+RP27	  S4	*disabled
+PXSX	  S4	*disabled
+RP28	  S4	*disabled
+PXSX	  S4	*disabled
+XHCI	  S4	*disabled  pci:0000:00:14.0
+XDCI	  S4	*disabled
+HDAS	  S4	*disabled  pci:0000:00:1f.3
+CNVW	  S4	*disabled
+AWAC	  S4	*enabled   platform:ACPI000E:00
+
+4. ls /etc/modprobe.d/
+
+firewalld-sysctls.conf
+mlx4.conf
+truescale.conf
+
+5. cat /etc/modprobe.d/*.conf
+
+install nf_conntrack /usr/bin/modprobe --ignore-install nf_conntrack $CMDLINE_OPTS && /sbin/sysctl --quiet --pattern 'net[.]netfilter[.]nf_conntrack.*' --system
+# This file is intended for users to select the various module options
+# they need for the mlx4 driver.  On upgrade of the rdma package,
+# any user made changes to this file are preserved.  Any changes made
+# to the libmlx4.conf file in this directory are overwritten on
+# pacakge upgrade.
+#
+# Some sample options and what they would do
+# Enable debugging output, device managed flow control, and disable SRIOV
+#options mlx4_core debug_level=1 log_num_mgm_entry_size=-1 probe_vf=0 num_vfs=0
+#
+# Enable debugging output and create SRIOV devices, but don't attach any of
+# the child devices to the host, only the parent device
+#options mlx4_core debug_level=1 probe_vf=0 num_vfs=7
+#
+# Enable debugging output, SRIOV, and attach one of the SRIOV child devices
+# in addition to the parent device to the host
+#options mlx4_core debug_level=1 probe_vf=1 num_vfs=7
+#
+# Enable per priority flow control for send and receive, setting both priority
+# 1 and 2 as no drop priorities
+#options mlx4_en pfctx=3 pfcrx=3
+install ib_qib modprobe -i ib_qib $CMDLINE_OPTS && /usr/lib/rdma/truescale-serdes.cmds start
+
+6. cat /usr/lib/modprobe.d/nvidia-power-management.conf (if it exists)
+
+# Does not exist -User Feedback
+
+7. systemctl status nvidia-suspend.service nvidia-hibernate.service nvidia-resume.service
+
+○ nvidia-suspend.service - NVIDIA system suspend actions
+     Loaded: loaded (/usr/lib/systemd/system/nvidia-suspend.service; enabled; preset: disabled)
+     Active: inactive (dead)
+
+Mar 08 14:32:24 linux-box logger[763762]: <13>Mar  8 14:32:24 suspend: nvidia-suspend.service
+Mar 08 14:32:26 linux-box systemd[1]: nvidia-suspend.service: Deactivated successfully.
+Mar 08 14:32:26 linux-box systemd[1]: Finished NVIDIA system suspend actions.
+Mar 08 14:32:26 linux-box systemd[1]: nvidia-suspend.service: Consumed 1.082s CPU time over 1.544s wall clock time, 931.4M memory peak.
+Mar 08 14:44:13 linux-box systemd[1]: Starting NVIDIA system suspend actions...
+Mar 08 14:44:13 linux-box suspend[767010]: nvidia-suspend.service
+Mar 08 14:44:13 linux-box logger[767010]: <13>Mar  8 14:44:13 suspend: nvidia-suspend.service
+Mar 08 14:44:14 linux-box systemd[1]: nvidia-suspend.service: Deactivated successfully.
+Mar 08 14:44:14 linux-box systemd[1]: Finished NVIDIA system suspend actions.
+Mar 08 14:44:14 linux-box systemd[1]: nvidia-suspend.service: Consumed 1.312s CPU time over 1.457s wall clock time, 1G memory peak.
+
+○ nvidia-hibernate.service - NVIDIA system hibernate actions
+     Loaded: loaded (/usr/lib/systemd/system/nvidia-hibernate.service; enabled; preset: disabled)
+     Active: inactive (dead)
+
+○ nvidia-resume.service - NVIDIA system resume actions
+     Loaded: loaded (/usr/lib/systemd/system/nvidia-resume.service; enabled; preset: disabled)
+     Active: inactive (dead)
+
+Mar 08 14:43:42 linux-box systemd[1]: Starting NVIDIA system resume actions...
+Mar 08 14:43:42 linux-box suspend[764218]: nvidia-resume.service
+Mar 08 14:43:42 linux-box logger[764218]: <13>Mar  8 14:43:42 suspend: nvidia-resume.service
+Mar 08 14:43:42 linux-box systemd[1]: nvidia-resume.service: Deactivated successfully.
+Mar 08 14:43:42 linux-box systemd[1]: Finished NVIDIA system resume actions.
+Mar 08 14:44:25 linux-box systemd[1]: Starting NVIDIA system resume actions...
+Mar 08 14:44:25 linux-box suspend[767390]: nvidia-resume.service
+Mar 08 14:44:25 linux-box logger[767390]: <13>Mar  8 14:44:25 suspend: nvidia-resume.service
+Mar 08 14:44:25 linux-box systemd[1]: nvidia-resume.service: Deactivated successfully.
+Mar 08 14:44:25 linux-box systemd[1]: Finished NVIDIA system resume actions.
+
+
