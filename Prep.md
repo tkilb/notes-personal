@@ -1,5 +1,5 @@
 ~~mulch~~
-Paint bathroom
+Paint bathroom ..
 ~~Bedroom vents~~
 ~~Dust living room lr windows~~
 ~~Attach door~~
