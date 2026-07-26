@@ -9,7 +9,7 @@ Disable shades
 Hang wall thing
 ~~Center table~~
 Clean basement
-Grind driveway
+~~Grind driveway~~
 Sort garage
 Stage bathrooms 
 Stage dining room
