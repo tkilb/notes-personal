@@ -1,11 +1,11 @@
 ~~mulch~~
-Paint bathroom ..
-Scrape shower
+~~Paint bathroom ..~~
+~~Scrape shower~~
 ~~Bedroom vents~~
 ~~Dust living room lr windows~~
 ~~Attach door~~
 ~~Stage gym room~~
-Charge shades
+~~Charge shades~~
 Disable shades
 ~~Hang wall thing~~
 ~~Center table~~
