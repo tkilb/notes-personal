@@ -6,7 +6,7 @@ Paint bathroom ..
 ~~Stage gym room~~
 Charge shades
 Disable shades
-Hang wall thing
+~~Hang wall thing~~
 ~~Center table~~
 Clean basement
 ~~Grind driveway~~
