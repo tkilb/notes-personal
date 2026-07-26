@@ -1,5 +1,6 @@
 mulch
 Paint bathroom
+Bedroom vents
 Attach door
 Stage gym room
 Hang wall thing
