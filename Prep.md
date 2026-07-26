@@ -2,8 +2,8 @@ mulch
 Paint bathroom
 Bedroom vents
 Dust lr windows
-Attach door
-Stage gym room
+~~Attach door~~
+~~Stage gym room~~
 Charge shade
 Disable shades
 Hang wall thing
