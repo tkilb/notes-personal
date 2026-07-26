@@ -3,6 +3,8 @@ Paint bathroom
 Bedroom vents
 Attach door
 Stage gym room
+Charge shade
+Disable shades
 Hang wall thing
 Center table
 Clean basement
