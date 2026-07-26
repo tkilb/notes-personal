@@ -1,5 +1,6 @@
 ~~mulch~~
 Paint bathroom ..
+Scrape shower
 ~~Bedroom vents~~
 ~~Dust living room lr windows~~
 ~~Attach door~~
