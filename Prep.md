@@ -1,10 +1,10 @@
 mulch
 Paint bathroom
-Bedroom vents
+~~Bedroom vents~~
 Dust living room lr windows
 ~~Attach door~~
 ~~Stage gym room~~
-Charge shade
+Charge shades
 Disable shades
 Hang wall thing
 ~~Center table~~
