@@ -1,7 +1,7 @@
 mulch
 Paint bathroom
 ~~Bedroom vents~~
-Dust living room lr windows
+~~Dust living room lr windows~~
 ~~Attach door~~
 ~~Stage gym room~~
 Charge shades
