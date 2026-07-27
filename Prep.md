@@ -9,15 +9,16 @@
 Disable shades
 ~~Hang wall thing~~
 ~~Center table~~
-Clean basement
+~~Clean basement~~
 ~~Grind driveway~~
 Sort garage
 Stage bathrooms 
 Stage dining room
 Stage kitchen
-Power wash house
-Dog shit
-Cut grass
+~~Power wash house~~
+~~Dog shit~~
+~~Cut grass~~
+Power outlets
 Clean garbage cans
 
 Paint trim
