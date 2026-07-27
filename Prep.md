@@ -22,4 +22,3 @@ Stage kitchen
 Clean garbage cans
 
 Paint trim
-Outlets
