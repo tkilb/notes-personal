@@ -18,7 +18,7 @@ Stage kitchen
 ~~Power wash house~~
 ~~Dog shit~~
 ~~Cut grass~~
-Power outlets
+~~Power outlets~~
 Clean garbage cans
 
 Paint trim
