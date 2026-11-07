@@ -1,7 +1,14 @@
 ---
+uid: c98753d6-c26b-4d97-9162-d8e358303b6e
+title: Groceries
+kind: ""
+source: ""
+date: ""
+tags: []
+people: []
 id: Groceries
 aliases: []
-tags: []
+related: []
 ---
 
 - [ ] Sour Cream

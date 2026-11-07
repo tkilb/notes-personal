@@ -1,7 +1,14 @@
 ---
+uid: b5ec6f7d-ebe9-437d-8844-14d5b8c70f25
+title: Routine
+kind: ""
+source: ""
+date: ""
+tags: []
+people: []
 id: Routine
 aliases: []
-tags: []
+related: []
 ---
 
 Mon
