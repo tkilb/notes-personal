@@ -1,6 +1,6 @@
 ---
 uid: c98753d6-c26b-4d97-9162-d8e358303b6e
-title: Groceries
+title: aldi
 kind: ""
 source: ""
 date: ""
