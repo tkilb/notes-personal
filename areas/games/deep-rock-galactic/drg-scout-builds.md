@@ -1,7 +1,14 @@
 ---
+uid: 74ff60c0-89ff-4c32-9dd5-c2a2ab945718
+title: drg-scout-builds
+kind: ""
+source: ""
+date: ""
+tags: []
+people: []
 id: drg-scout-builds
 aliases: []
-tags: []
+related: []
 ---
 
 # Scout Builds
