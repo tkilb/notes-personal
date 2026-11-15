@@ -1,6 +1,6 @@
 ---
 uid: 4399e96b-d621-4ed2-8a8d-7678e4789a17
-title: Bot Build
+title: Ranger
 kind: guide
 source: adhoc
 date: 2026-11-12
